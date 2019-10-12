@@ -22,7 +22,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/c5ce4202-f4f7-11e8-8f50-a71b647a9c02/image/uploads_2F1544112383285-xd2w7wakqq-f89e648a50216511f778c9fb1840c8da_2FLogo2000x2000.jpg",
         }
         subjects.append(item)
     return subjects
@@ -51,7 +51,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "https://megaphone-prod.s3.amazonaws.com/podcasts/c5ce4202-f4f7-11e8-8f50-a71b647a9c02/image/uploads_2F1544112383285-xd2w7wakqq-f89e648a50216511f778c9fb1840c8da_2FLogo2000x2000.jpg",
         }
         subjects.append(item)
     return subjects
