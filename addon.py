@@ -23,13 +23,11 @@ def episodes1():
     playable_podcast1 = mainaddon.get_playable_podcast1(soup1)
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
     return items
-
 @plugin.route('/episodes/')
 def episodes():
     soup1 = mainaddon.get_soup1(url1)
     playable_podcast = mainaddon.get_playable_podcast(soup1)
     items = mainaddon.compile_playable_podcast(playable_podcast)
     return items
-
 if __name__ == '__main__':
     plugin.run()
